@@ -2,7 +2,7 @@ version: "3"
 services:
   router:
     hostname: router
-    name: router
+    container_name: router
     restart: always
     build: .
     ports:
